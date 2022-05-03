@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&family=Comforter&family=Dongle:wght@300&family=Love+Light&family=Merriweather+Sans:wght@700&family=Open+Sans:wght@300&family=Oswald:wght@200&family=PT+Serif&family=Pacifico&family=Poppins&family=Redressed&family=Roboto+Serif:ital,wght@1,100&family=Shizuru&family=Smooch+Sans:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+.container {
+position: relative;
+    width: 100%;
+height: 100vh;
+
+background-image: url(https://scontent.fhan3-4.fna.fbcdn.net/v/t39.30808-6/278557564_3175941359316126_335092517393831032_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Z5W3GIqdwWAAX-QGhgd&_nc_oc=AQnBIwdZTwVEuPoXiawnc3_U1W4cS6H_18AG_xWp_0H1voxpMqK3YjhtxW2ypHVKOA6jnANx-6COGDGgp_jFB_lz&_nc_ht=scontent.fhan3-4.fna&oh=00_AT8sGZkF9KVuQlooK_vw5eP-14vOeDvZvMUOy1m-ouRG2g&oe=6274FAAB);}
+.card {
+    background-color: #333;
+    margin: 0 auto;
+    max-width: 1020px;
+    height: 100%;
+    box-shadow: 5px 5px 10px  black , -5px -5px 10px  black;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.card {
+    padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+column-gap: 20px;
+}
+.main-box {
+    width: 100%;
+    height:60%;
+    display: flex;
+gap: 20px;
+}
+.recom-box {
+    margin-top: 20px;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+.photo-album {
+    width: 100%;
+    height: 100%;
+}
+.photo-album img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+.detail-album {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    height: 100%;
+}
+.detail-album .a {
+padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.detail-album .p {
+    color: rgb(192, 192, 192);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.detail-album .p h1 {
+    font-size: 4rem;
+    color: rgb(191, 191, 22);
+    text-shadow: 0 0  0.5em black;
+}
+.detail-album .a button {
+    width: 48%;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s linear;
+}
+.detail-album .a .b {
+    background-color: rgb(205, 205, 18);
+}
+.detail-album .a button:hover {
+    background-color: whitesmoke;
+    transition: 0.5s linear;
+    color: black;
+}
+.card-2 {
+    position: absolute;
+    padding: 20px 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 1080px;
+    background-color: #333;
+    height: 100vh;
+    z-index: 3;
+display: none;
+}
+.card-2 h1 {
+    color: rgb(191, 191, 22);
+    font-size: 5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.text {
+    width: 100%;
+    color: whitesmoke;
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+}
+#text{
+    text-align: center;
+} 
+#text-1 {
+    text-align: center;
+}   
+#text-2 {
+    text-align: start;
+} 
+#text-3 {
+    text-align: end;
+}
+#text-4 {
+    text-align: center;
+}
+.themnail {
+    width: fit-content;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 2px solid white;
+    height: 15%;
+}
+.release {
+    height: 85%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 20px;
+padding-top: 10px;
+}
+.mtp {
+    background-image: url(https://nld.mediacdn.vn/291774122806476800/2022/4/29/2222-1651205411784134490166.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.binz , .denvau , .mr-siro {
+background-image: url(https://kenh14cdn.com/thumb_w/640/203336854389633024/2022/3/14/photo1647265097111-16472650978081679795528.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.denvau {
+    background-image: url(https://i.ytimg.com/vi/vTJdVE_gjI0/maxresdefault.jpg);
+background-position: center;
+}
+.mr-siro {
+background-image: url(https://i.ytimg.com/vi/FVuqNi0inPE/maxresdefault.jpg?v=621c9e84);
+background-position: center;
+}
+.card-2 h2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+right: 20px;
+    top: 0;
+    transition: .2s linear;
+}
+.card-2 h2:hover {
+    transition: .2s linear;
+    color: rgb(240, 61, 61);
+}
